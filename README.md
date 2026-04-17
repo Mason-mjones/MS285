@@ -9,7 +9,12 @@ My thesis research involves repeat bathymetry surveys over the canyon head to an
 
 Data
 
-This data will be in the form of KML file type that I will import from my bathymetry post processing software. 
+This data will be in the form of KML file type or a xyz file depending on with the past groups used as their eporting raster file for editing in ArcGIS. This Data will then be complied into one folder with each file name being the data at which the survey was conducted. This will help the model recognize the evolution of the canyon wit htime stamps.  
+
+Model 
+
+I will use a classification model to learn and understand how the nearshore bathymetry has changed ove the course of 20 years then use that data for it to then output future bathymetry profiles. I'll prompt the model to output me files for each year for the next 20 years. 
+
 Analysis
 
-I will use a classification model to learn and understand how the nearshore bathymetry has changed ove the course of 20 years then use that data for it to then output future bathymetry profiles. I will then overlay this into ArcGIS or Google Earth for viewing. 
+After the model has ran I will then overlay the new output KML files Google Earth for viewing and targeting large failures that have occured. Once i have found the main erosional events (assuming that this canyon truely is in a state of erosion and had not reach a new equalibrium) I will do a raster subtraction to quatify cubic meters of sediment lost into the canyon.  
